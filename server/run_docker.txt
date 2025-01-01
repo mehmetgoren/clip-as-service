@@ -1,0 +1,5 @@
+docker build -t gokalpgoren/jina_clip:1.0.0 -f Dockerfile .
+
+docker run --rm -it --gpus=all --network host gokalpgoren/jina_clip:1.0.0
+
+docker run --rm -it --gpus=all -p 51000:51000 gokalpgoren/jina_clip:1.0.0

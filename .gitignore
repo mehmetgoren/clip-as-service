@@ -151,3 +151,4 @@ output/
 # kubernetes testing
 .pytest-kind
 .kube
+server/ViT-B-32.pt
